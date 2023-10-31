@@ -3,7 +3,7 @@
 #include <ESP8266WebServer.h>
 #include <FS.h>  // Include the SPIFFS library
 
-const char* SSID_NAME = "Ústí Free WiFi";
+const char* SSID_NAME = "Free WiFi";
 const byte HTTP_CODE = 200;
 const byte DNS_PORT = 53;
 const byte TICK_TIMER = 1000;
@@ -54,8 +54,23 @@ void setup() {
                     "  }"
                     "</style>"
                     "</head>"
-                    "<body><h1>Rick roll</h1>"
-                    "<img src='/rickroll.gif' alt='Rick Roll'></body></html>";
+                    "<body><h1>Rick Roll</h1>"
+                    "<img src='/rickroll.gif' alt='Rick Roll'></body></html>"
+                    "<p>Never gonna give you up</p>"
+                    "<p>Never gonna let you down</p>"
+                    "<p>Never gonna run around, and desert you</p>"
+                    "<p>Never gonna make you cry</p>"
+                    "<p>Never gonna say goodbye</p>"
+                    "<p>never gonna tell a lie, and hurt you</p>"
+                    "<p>Never gonna give you up</p>"
+                    "<p>Never gonna let you down</p>"
+                    "<p>Never gonna run around, and desert you</p>"
+                    "<p>Never gonna make you cry</p>"
+                    "<p>Never gonna say goodbye</p>"
+                    "<p>never gonna tell a lie, and hurt you</p>";
+
+
+                    
     webServer.send(HTTP_CODE, "text/html", content);
   });
 
