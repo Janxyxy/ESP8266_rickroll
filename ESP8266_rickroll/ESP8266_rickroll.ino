@@ -3,7 +3,7 @@
 #include <ESP8266WebServer.h>
 #include <FS.h>  // Include the SPIFFS library
 
-const char* SSID_NAME = "Free WiFi";
+const char* SSID_NAME = "Free WiFi"; //Here you can change SSID name 
 const byte HTTP_CODE = 200;
 const byte DNS_PORT = 53;
 const byte TICK_TIMER = 1000;
@@ -41,6 +41,7 @@ void setup() {
     }
   });
 
+  //Webserver HTML + CSS
   webServer.onNotFound([]() {
     String content = "<!DOCTYPE html><html>"
                     "<head><title>Captive Portal</title>"
