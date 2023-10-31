@@ -20,3 +20,6 @@ Connect your ESP8266 board to your computer via USB.
 In the Arduino IDE, go to "Tools" > "Port" and select the COM port to which your ESP8266 is connected.
 
 **Put *esp8266fs.jar* to path ```<Disk>\<User>\Documents\Arduino\tools\ESP8266FS\tool```**
+
+## Credit
+https://github.com/esp8266/arduino-esp8266fs-plugin
