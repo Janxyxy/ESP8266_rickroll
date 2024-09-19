@@ -56,7 +56,7 @@ void setup() {
                     "</style>"
                     "</head>"
                     "<body><h1>Rick Roll</h1>"
-                    "<img src='/rickroll.gif' alt='Rick Roll'></body></html>"
+                    "<img src='/rickroll.gif' alt='Rick Roll'>"
                     "<p>Never gonna give you up</p>"
                     "<p>Never gonna let you down</p>"
                     "<p>Never gonna run around, and desert you</p>"
@@ -69,6 +69,7 @@ void setup() {
                     "<p>Never gonna make you cry</p>"
                     "<p>Never gonna say goodbye</p>"
                     "<p>never gonna tell a lie, and hurt you</p>";
+                    "</body></html>";
 
 
                     
